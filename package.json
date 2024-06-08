@@ -1,0 +1,19 @@
+{
+  "name": "prueba-master-2",
+  "version": "1.0.0",
+  "description": "OBJETIVO: Evaluar tus habilidades de desarrollo en funciones lambda y capacidades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriany/prueba-master-2.git"
+  },
+  "author": "Fabriany Orrego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriany/prueba-master-2/issues"
+  },
+  "homepage": "https://github.com/fabriany/prueba-master-2#readme"
+}
