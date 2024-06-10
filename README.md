@@ -1,6 +1,6 @@
 # Prueba Técnica: AWS Lambda con Node.js y MySQL
 
-## Sección 2: Funciones Lambda
+## Sección 1: Funciones Lambda
 ### Tarea 1: Filtrar y Transformar Datos
 **Descripción:** Dado un objeto con información de productos en una tienda, la función lambda filtra los productos cuyo precio sea mayor a $10.000 y devuelve una lista con los nombres de esos productos en mayúsculas.
 
