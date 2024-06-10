@@ -7,6 +7,9 @@
 ### Tarea 2: Ordenar Datos
 **Descripción:** La función lambda ordena una lista de tuplas (nombre, edad) en orden descendente por edad.
 
+
+**Solución:** Se crean las funciones Lambda: (filterProducts, orderForEges), y se versiona el codigo en la caperta 1-funciones-lambda. 
+
 ## Sección 2: Consultas SQL
 ### Tarea 1: Consultas de Agregación
 **Descripción:** Dada la siguiente estructura de tablas en una base de datos de ventas, la consulta SQL devuelve el total de ventas por categoría de producto y por mes, junto con el porcentaje de crecimiento respecto al mes anterior.
@@ -17,6 +20,9 @@
 3. Debe incluir una columna adicional que muestre el porcentaje de crecimiento del total de ventas respecto al mes anterior para cada categoría.
 
 **Output Esperado:** Deberías obtener un resultado con columnas: category, month, total_sales, growth_percentage.
+
+**Solución:** Para el ejercicio de crea una base de datos MySQL en AWS RDS (nombre: master) y se versiona la consulta en la carpeta 2-consultas-sql.
+
 
 ## Sección 3: Conexiones a Bases de Datos con Node.js en AWS Lambda
 ### Tarea 1: Conexión a una Base de Datos MySQL desde AWS Lambda
@@ -31,6 +37,9 @@
    - Obtener la cantidad total de ventas por producto.
    - Obtener el producto con el precio más alto.
 5. Combina los resultados de las consultas en un solo objeto JSON y devuélvelo.
+
+**Solución:** Se crean las funciones Lambda: (LambdaConexionesBD) donde se usa la libreria mysql2 para conectar a la base de datos creada en el punto anterior en RDS, las credenciales de la base de datos son administradas en AWS secretsManager y usadas en la lambda con aws-sdk, el codigo queda versionado en la carpeta
+3-conexiones-bd-lambda
 
 ---
 
